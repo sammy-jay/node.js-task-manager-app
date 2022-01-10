@@ -4,7 +4,7 @@ const formDOM = document.querySelector(".task-form");
 const taskInputDOM = document.querySelector(".task-input");
 const formAlertDOM = document.querySelector(".form-alert");
 
-const URL = "http://localhost:8080/api/v1/tasks";
+const URL = "https://twt-task-manager.herokuapp.com/api/v1/tasks";
 
 const showTasks = () => {
   loadingDOM.style.visibility = "visible";

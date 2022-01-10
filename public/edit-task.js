@@ -7,7 +7,7 @@ const formAlertDOM = document.querySelector(".form-alert");
 const params = window.location.search;
 const id = new URLSearchParams(params).get("id");
 let tempName;
-const URL = "http://localhost:8080/api/v1/tasks";
+const URL = "https://twt-task-manager.herokuapp.com/api/v1/tasks";
 const showTask = () => {
   axios
     .get(`${URL}/${id}`)
