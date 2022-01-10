@@ -80,7 +80,6 @@ formDOM.addEventListener("submit", (e) => {
       formAlertDOM.classList.add("text-success");
     })
     .catch((err) => {
-      console.lg(err.json());
       formAlertDOM.style.display = "block";
       formAlertDOM.innerHTML = `error, please try again`;
     });
